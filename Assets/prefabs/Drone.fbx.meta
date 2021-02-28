@@ -1,0 +1,347 @@
+fileFormatVersion: 2
+guid: 5bad4f14d76ed7843ae4dfabcd035457
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Drone(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Light
+      parentName: Drone(Clone)
+      position: {x: -4.763915, y: 6.913076, z: -0.50926745}
+      rotation: {x: 0.52327543, y: -0.34203398, z: 0.72694236, w: 0.28416628}
+      scale: {x: 100.00001, y: 100, z: 100}
+    - name: Camera
+      parentName: Drone(Clone)
+      position: {x: -5.4053783, y: 4.958309, z: 6.080373}
+      rotation: {x: 0.0906284, y: 0.8937962, z: -0.20997299, w: 0.38577998}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: Cone.005
+      parentName: Drone(Clone)
+      position: {x: 0.8006359, y: 3.982054, z: -0.9051511}
+      rotation: {x: 0.00000012544248, y: -0.58845973, z: 0.8085265, w: -0.00000014951809}
+      scale: {x: 20, y: 20, z: 21.980326}
+    - name: Armature
+      parentName: Drone(Clone)
+      position: {x: -1.133706, y: 2.1386776, z: 3.7916698}
+      rotation: {x: -0.33119884, y: 0, z: -0, w: 0.943561}
+      scale: {x: 100, y: 100.00001, z: 100.00001}
+    - name: Bone
+      parentName: Armature
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end 11
+      parentName: Bone
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mball
+      parentName: Drone(Clone)
+      position: {x: -1.1263968, y: 2.0050302, z: 3.3985624}
+      rotation: {x: 0.5, y: -0.49999997, z: -0.5, w: -0.5}
+      scale: {x: 25, y: 25, z: 25}
+    - name: Armature.001
+      parentName: Drone(Clone)
+      position: {x: -1.133706, y: 1.8929223, z: 3.7721145}
+      rotation: {x: 0.30945203, y: 0, z: -0, w: 0.9509151}
+      scale: {x: 100, y: 99.99999, z: 99.99999}
+    - name: Bone 1
+      parentName: Armature.001
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end
+      parentName: Bone 1
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.002
+      parentName: Drone(Clone)
+      position: {x: -1.133706, y: 2.0252185, z: 3.0208821}
+      rotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone 2
+      parentName: Armature.002
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end 1
+      parentName: Bone 2
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mball.001
+      parentName: Drone(Clone)
+      position: {x: -1.133706, y: 2.0050302, z: 1.7641}
+      rotation: {x: 0.5, y: -0.49999997, z: -0.5, w: -0.5}
+      scale: {x: 25, y: 25, z: 25}
+    - name: Armature.003
+      parentName: Drone(Clone)
+      position: {x: -1.133706, y: 2.0252185, z: 1.4038094}
+      rotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone 3
+      parentName: Armature.003
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end 2
+      parentName: Bone 3
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mball.002
+      parentName: Drone(Clone)
+      position: {x: -1.133706, y: 2.0050302, z: 0.26693106}
+      rotation: {x: 0.5, y: -0.49999997, z: -0.5, w: -0.5}
+      scale: {x: 25, y: 25, z: 25}
+    - name: Armature.004
+      parentName: Drone(Clone)
+      position: {x: -1.133706, y: 2.0252185, z: -0.011975527}
+      rotation: {x: 1, y: 0, z: -0, w: 0.0000000754979}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone 4
+      parentName: Armature.004
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end 3
+      parentName: Bone 4
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mball.003
+      parentName: Drone(Clone)
+      position: {x: -1.133706, y: 3.0035028, z: -2.4720619}
+      rotation: {x: -0.081848614, y: 0.45157042, z: 0.5148366, w: 0.7241051}
+      scale: {x: 25, y: 24.999998, z: 24.999998}
+    - name: Mball.004
+      parentName: Drone(Clone)
+      position: {x: -1.133706, y: 2.1959968, z: -1.2187383}
+      rotation: {x: -0.38017878, y: 0.38017875, z: 0.5962081, w: 0.5962081}
+      scale: {x: 25.000002, y: 25, z: 25.000002}
+    - name: Armature.005
+      parentName: Drone(Clone)
+      position: {x: -1.133706, y: 2.4574225, z: -1.67303}
+      rotation: {x: 0.9567483, y: 0, z: 0, w: -0.290917}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone 5
+      parentName: Armature.005
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end 4
+      parentName: Bone 5
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.006
+      parentName: Drone(Clone)
+      position: {x: 1.1407076, y: 1.5639509, z: 3.4143405}
+      rotation: {x: -0.27328855, y: 0.08699721, z: 0.0364812, w: 0.9572952}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: Bone 6
+      parentName: Armature.006
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end 5
+      parentName: Bone 6
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mball.005
+      parentName: Drone(Clone)
+      position: {x: 1.0668696, y: 1.4770799, z: 3.0150957}
+      rotation: {x: -0.42301393, y: 0.5115746, z: 0.5763742, w: 0.47659576}
+      scale: {x: 25.000002, y: 25, z: 25}
+    - name: Armature.007
+      parentName: Drone(Clone)
+      position: {x: 1.1370345, y: 1.3222129, z: 3.3660975}
+      rotation: {x: 0.36381224, y: 0.09128305, z: -0.023807446, w: 0.92668295}
+      scale: {x: 100, y: 100, z: 99.99999}
+    - name: Bone 7
+      parentName: Armature.007
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.16799101, y: 0.017515248, z: -0.017515272, w: 0.98547727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end 6
+      parentName: Bone 7
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Armature.008
+      parentName: Drone(Clone)
+      position: {x: 0.9959292, y: 1.541159, z: 2.6491563}
+      rotation: {x: 0.9937792, y: 0.0056088916, z: -0.0941697, w: -0.059190642}
+      scale: {x: 100, y: 100, z: 100.00001}
+    - name: Bone 8
+      parentName: Armature.008
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end 7
+      parentName: Bone 8
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mball.006
+      parentName: Drone(Clone)
+      position: {x: 0.7598656, y: 1.6676396, z: 1.4210746}
+      rotation: {x: -0.42301393, y: 0.5115746, z: 0.5763742, w: 0.47659576}
+      scale: {x: 25.000002, y: 25, z: 25}
+    - name: Armature.009
+      parentName: Drone(Clone)
+      position: {x: 0.69219154, y: 1.7296911, z: 1.0720953}
+      rotation: {x: 0.9937792, y: 0.0056088916, z: -0.0941697, w: -0.059190642}
+      scale: {x: 100, y: 100, z: 100.00001}
+    - name: Bone 9
+      parentName: Armature.009
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end 8
+      parentName: Bone 9
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mball.007
+      parentName: Drone(Clone)
+      position: {x: 0.47864974, y: 1.8421923, z: -0.03905001}
+      rotation: {x: -0.42301393, y: 0.5115746, z: 0.5763742, w: 0.47659576}
+      scale: {x: 25.000002, y: 25, z: 25}
+    - name: Armature.010
+      parentName: Drone(Clone)
+      position: {x: 0.4262622, y: 1.8947555, z: -0.30865923}
+      rotation: {x: 0.9937792, y: 0.0056088916, z: -0.0941697, w: -0.059190642}
+      scale: {x: 100, y: 100, z: 100.00001}
+    - name: Bone 10
+      parentName: Armature.010
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end 9
+      parentName: Bone 10
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mball.008
+      parentName: Drone(Clone)
+      position: {x: -0.035820063, y: 3.1529412, z: -2.591752}
+      rotation: {x: -0.14701937, y: 0.38439408, z: 0.79508144, w: 0.4455021}
+      scale: {x: 25, y: 25, z: 25.000002}
+    - name: Mball.009
+      parentName: Drone(Clone)
+      position: {x: 0.1995939, y: 2.205021, z: -1.4652913}
+      rotation: {x: -0.2885115, y: 0.39653602, z: 0.65414757, w: 0.575857}
+      scale: {x: 25, y: 25, z: 25}
+    - name: Armature.011
+      parentName: Drone(Clone)
+      position: {x: 0.114263475, y: 2.5175638, z: -1.8773112}
+      rotation: {x: 0.933577, y: -0.022029273, z: -0.0917284, w: -0.34573776}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Bone 11
+      parentName: Armature.011
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Bone_end 10
+      parentName: Bone 11
+      position: {x: -0, y: 0.01, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 1
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
