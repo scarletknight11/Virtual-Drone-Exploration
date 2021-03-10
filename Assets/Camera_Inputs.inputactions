@@ -1,0 +1,55 @@
+{
+    "name": "Camera_Inputs",
+    "maps": [
+        {
+            "name": "Camera",
+            "id": "8631f101-5695-46ac-9572-a383bb0410f6",
+            "actions": [
+                {
+                    "name": "CameraSwitcher",
+                    "type": "Button",
+                    "id": "25e11d6f-844e-464f-b7b7-509c36d572d0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "Button With One Modifier",
+                    "id": "b0980b53-a307-49fe-98ec-7a6f54f09286",
+                    "path": "ButtonWithOneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraSwitcher",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "modifier",
+                    "id": "62f20eb0-a73f-4cac-b2e2-eca2441877c5",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraSwitcher",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "button",
+                    "id": "58896855-4243-4f54-a5ca-8ea20a2fdf44",
+                    "path": "<Keyboard>/#(L)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CameraSwitcher",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
