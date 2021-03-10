@@ -13,7 +13,7 @@ namespace VRLab
 
         const float lbsToKg = 0.454f;
 
-        private Rigidbody rb;
+        protected Rigidbody rb;
         protected float startDrag;
         protected float startAngularDrag;
         #endregion
