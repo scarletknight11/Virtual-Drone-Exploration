@@ -4027,7 +4027,7 @@ MonoBehaviour:
   gameState: 0
   score: 0
   canBeatLevel: 1
-  beatLevelScore: 12
+  beatLevelScore: 6
   mainCanvas: {fileID: 697000826}
   mainScoreDisplay: {fileID: 1213816143}
   gameOverCanvas: {fileID: 824420206}
